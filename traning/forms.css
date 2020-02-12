@@ -25,6 +25,7 @@ label[for ="male"],label[for ="female"]{
   background-position: 0 -32px; 
   line-height: 20px;
    cursor: grab;
+   
 }
 input[type="checkbox"]{
     opacity: 0;
@@ -39,6 +40,7 @@ label[for="web"],label[for="webdesign"],label[for="photoshop"]{
  background-position: 0 -100px;
  cursor: grab;
  line-height :20px;
+ 
 }
 input:checked+label[for="web"],:checked+label[for="webdesign"],:checked+label[for="photoshop"]{
  background-position: 0 -66px;
