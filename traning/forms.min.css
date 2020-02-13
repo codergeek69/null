@@ -1,0 +1,197 @@
+body {
+    background-color: #000;
+    font-style: oblique
+}
+
+header {
+    margin-left: 40%;
+    padding: 20px
+}
+
+:checked+label[for=female],
+input:checked+label[for=male] {
+    color: red;
+    background-position: 0 0;
+    transition: 0.7s;
+}
+
+label {
+    font-family: cursive
+}
+
+label[for=female],
+label[for=male] {
+    margin-bottom: 10px;
+    padding-left: 26px;
+    display: inline-block;
+    background: url(styling-html5-forms-playlist-master/img/checks.png) no-repeat;
+    background-position: 0 -32px;
+    line-height: 20px;
+    cursor: grab;
+
+
+}
+
+input[type=checkbox] {
+    opacity: 0;
+    width: 0;
+    margin: 0
+}
+
+label[for=photoshop],
+label[for=web],
+label[for=webdesign] {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding-left: 26px;
+    background: url(styling-html5-forms-playlist-master/img/checks.png) no-repeat;
+    background-position: 0 -100px;
+    cursor: grab;
+    line-height: 20px;
+    transition: 0.7s;
+}
+
+:checked+label[for=photoshop],
+:checked+label[for=webdesign],
+input:checked+label[for=web] {
+    background-position: 0 -66px;
+    color: red;
+    transition: 0.7s;
+}
+
+input[type=date] {
+    background: linear-gradient(#ff0000, #e68e0b);
+    font-size: 16px;
+    font-style: oblique;
+    border: 2px solid #ce2844;
+}
+
+form:hover {
+    background-color: rgba(117, 93, 93, 0.13);
+    transition: 1s;
+}
+
+select {
+    width: 90px;
+    font-size: 14px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-left: 5px;
+    -moz-appearance: none;
+    background: url(styling-html5-forms-playlist-master/img/select.png) no-repeat;
+    background-position: 73px -1.4px;
+    border: 2px solid red;
+    background-color: #686767;
+}
+
+input[type=email],
+input[type=number],
+input[type=password] {
+    margin-left: 5px;
+    width: 300px;
+    border: 1px solid red;
+    background: url(styling-html5-forms-playlist-master/img/inputs.png) no-repeat;
+    margin-bottom: 10px;
+    height: 22px;
+    color: #000;
+    font-size: 15px;
+}
+
+input[type=email] {
+    width: 270px;
+    padding-left: 30px;
+    background-position: 0 1px;
+    background-color: #686767
+}
+
+
+input[type=number] {
+
+    width: 270px;
+    padding-left: 30px;
+    background-color: #686767;
+    background-position: 0 -66px;
+    -moz-appearance: textfield;
+}
+
+
+
+input[type=password] {
+
+    background: url(styling-html5-forms-playlist-master/img/untitled.png) no-repeat;
+    width: 270px;
+    padding-left: 30px;
+    background-color: #686767;
+    background-position: 0 -1px;
+}
+
+fieldset {
+
+    background-color: rgba(161, 128, 128, .13)
+}
+
+input[type=email]:valid,
+input[type=number]:valid,
+input[type=password]:valid {
+    border: 2px solid #0ff
+}
+
+input[type=email]:valid {
+    background: url(styling-html5-forms-playlist-master/img/inputs[1].png) no-repeat;
+    background-position: 0 0;
+    background-color: #686767
+}
+
+input[type=password]:valid {
+    background: url(styling-html5-forms-playlist-master/img/2.png) no-repeat;
+    background-position: 0 0;
+    background-color: #686767
+}
+
+input[type=number]:valid {
+    background: url(styling-html5-forms-playlist-master/img/inputs.png) no-repeat;
+    background-position: 0 -106.1px;
+    background-color: #686767
+}
+
+input[type=radio] {
+    opacity: 0;
+    width: 0;
+    margin: 0
+}
+
+.dude {
+    color: red;
+    margin-bottom: 20px;
+    margin-left: 40%
+}
+
+form {
+
+    background-color: rgb(0, 0, 0);
+    color: #c7aeae;
+    transition: 1s;
+}
+
+h4 {
+    font-size: 19px;
+    margin: 1%;
+    color: #e78719
+}
+
+div {
+    margin-left: 0;
+    margin-top: 20px;
+    z-index: 1
+}
+
+.shade {
+    color: #fff;
+    background: linear-gradient(red, #000);
+    box-shadow: 10px 2px 10px rgba(10, 20, 39)
+}
+
+h1 {
+    color: red;
+    margin-top: 12px
+}
